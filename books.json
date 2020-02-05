@@ -1,0 +1,56 @@
+const books = [
+  {
+    name: "HTML & CSS",
+    author: "John Duckett",
+    released: {
+      year: 2011,
+      month: 6
+    },
+    reviews: [
+      {
+        author: "Hansi",
+        rating: 5
+      },
+      {
+        author: "Po",
+        rating: 7
+      }
+    ]
+  },
+  {
+    name: "JavaScript & jQuery",
+    author: "John Duckett",
+    released: {
+      year: 2014,
+      month: 8
+    },
+    reviews: [
+      {
+        author: "Hansi",
+        rating: 8
+      },
+      {
+        author: "Po",
+        rating: 6
+      }
+    ]
+  },
+  {
+    name: "Naiv Super",
+    author: "Erelend Loe",
+    released: {
+      year: 1999,
+      month: 3
+    },
+    reviews: [
+      {
+        author: "Per Jensen",
+        rating: 100
+      },
+      {
+        author: "Ulla Nielsen",
+        rating: 200
+      }
+    ]
+  }
+];
