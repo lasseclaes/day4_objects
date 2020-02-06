@@ -1,0 +1,57 @@
+/* Inconsistent data */
+
+const students = [
+  {
+    name: "Lasse",
+    age: 23,
+    gender: "male"
+  },
+  {
+    name: "Lasse Claes",
+    age: 28,
+    gender: "man"
+
+  },
+  {
+    name: "Anna",
+    age: 22,
+    gender: "female"
+  }
+]
+
+
+/* problems
+1. gender: male vs man
+2. age & birthday
+  birthday : 6-2-2020 // calculates number
+  [6, 2, 2020] // need to remember what is what
+                //americans start with month
+                /international standard year month day
+                */
+
+const studentsB = [
+  {
+    name: "Lasse",
+    age {
+      month: 2,
+      day: 6,
+      year: 1997
+    },
+    gender: "male"
+  },
+  {
+    name: "Lasse Claes",
+    age: 28,
+    gender: "man"
+
+  },
+  {
+    name: "Anna",
+    age: 22,
+    gender: "female"
+  }
+] {
+  //studentB[0].age.year
+  //studentsB[1].age
+}
+}

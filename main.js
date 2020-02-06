@@ -1,3 +1,5 @@
+console.log(books);
+
 const template = document.querySelector("#main-template").content;
 
 const clone = template.cloneNode(true);
